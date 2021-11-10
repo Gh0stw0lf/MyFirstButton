@@ -13,6 +13,8 @@
 		4112C7EE27284F1400EA42A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4112C7ED27284F1400EA42A7 /* Preview Assets.xcassets */; };
 		4112C7F927284F1400EA42A7 /* MyFirstButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C7F827284F1400EA42A7 /* MyFirstButtonTests.swift */; };
 		4112C80427284F1400EA42A7 /* MyFirstButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112C80327284F1400EA42A7 /* MyFirstButtonUITests.swift */; };
+		41AFE7EC272C92D300DF8A2B /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AFE7EB272C92D300DF8A2B /* PlaySound.swift */; };
+		41DCF2382728F00C00C10ED3 /* chico! at the disco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41DCF2372728F00C00C10ED3 /* chico! at the disco.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4112C7FF27284F1400EA42A7 /* MyFirstButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4112C80327284F1400EA42A7 /* MyFirstButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstButtonUITests.swift; sourceTree = "<group>"; };
 		4112C80527284F1400EA42A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AFE7EB272C92D300DF8A2B /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		41DCF2372728F00C00C10ED3 /* chico! at the disco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "chico! at the disco.mp3"; path = "../../../../../chico! at the disco.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 		4112C7DA27284F1300EA42A7 = {
 			isa = PBXGroup;
 			children = (
+				41DCF2362728EFFA00C10ED3 /* Sounds */,
 				4112C7E527284F1300EA42A7 /* MyFirstButton */,
 				4112C7F727284F1400EA42A7 /* MyFirstButtonTests */,
 				4112C80227284F1400EA42A7 /* MyFirstButtonUITests */,
@@ -97,6 +102,7 @@
 			children = (
 				4112C7E627284F1300EA42A7 /* MyFirstButtonApp.swift */,
 				4112C7E827284F1300EA42A7 /* ContentView.swift */,
+				41AFE7EB272C92D300DF8A2B /* PlaySound.swift */,
 				4112C7EA27284F1400EA42A7 /* Assets.xcassets */,
 				4112C7EF27284F1400EA42A7 /* Info.plist */,
 				4112C7EC27284F1400EA42A7 /* Preview Content */,
@@ -128,6 +134,14 @@
 				4112C80527284F1400EA42A7 /* Info.plist */,
 			);
 			path = MyFirstButtonUITests;
+			sourceTree = "<group>";
+		};
+		41DCF2362728EFFA00C10ED3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				41DCF2372728F00C00C10ED3 /* chico! at the disco.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			files = (
 				4112C7EE27284F1400EA42A7 /* Preview Assets.xcassets in Resources */,
 				4112C7EB27284F1400EA42A7 /* Assets.xcassets in Resources */,
+				41DCF2382728F00C00C10ED3 /* chico! at the disco.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4112C7E927284F1300EA42A7 /* ContentView.swift in Sources */,
+				41AFE7EC272C92D300DF8A2B /* PlaySound.swift in Sources */,
 				4112C7E727284F1300EA42A7 /* MyFirstButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: playSound) {
+            Text("Ear Rape")
+            showingAlert = true
+            }
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +24,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
